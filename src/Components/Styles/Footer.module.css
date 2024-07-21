@@ -1,0 +1,23 @@
+.container {
+	background-color: rgb(24, 24, 24);
+	color: white;
+	height: 6vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3vw;
+	overflow: hidden;
+	margin-top: -5px;
+}
+.container p {
+	margin: 0;
+	animation: scroll 20s linear infinite;
+}
+@keyframes scroll {
+	0% {
+		transform: translateX(120%);
+	}
+	100% {
+		transform: translateX(-120%);
+	}
+}

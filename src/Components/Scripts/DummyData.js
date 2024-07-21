@@ -1,0 +1,23 @@
+const dummyData = [
+	{ playerName: "Player11", score: "06:45::621" },
+	{ playerName: "Player1", score: "10:25::123" },
+	{ playerName: "Player19", score: "10:34::164" },
+	{ playerName: "Player9", score: "10:45::234" },
+	{ playerName: "Player12", score: "11:59::952" },
+	{ playerName: "Player4", score: "12:00::000" },
+	{ playerName: "Player20", score: "12:24::452" },
+	{ playerName: "Player2", score: "12:29::456" },
+	{ playerName: "Player15", score: "14:32::230" },
+	{ playerName: "Player5", score: "15:46::132" },
+	{ playerName: "Player6", score: "17:49::154" },
+	{ playerName: "Player7", score: "19:34::264" },
+	{ playerName: "Player16", score: "19:45::468" },
+	{ playerName: "Player3", score: "20:30::956" },
+	{ playerName: "Player18", score: "20:55::675" },
+	{ playerName: "Player17", score: "23:12::134" },
+	{ playerName: "Player8", score: "25:30::125" },
+	{ playerName: "Player13", score: "26:37::452" },
+	{ playerName: "Player14", score: "45:29::021" },
+	{ playerName: "Player10", score: "55:36::123" },
+];
+export { dummyData };

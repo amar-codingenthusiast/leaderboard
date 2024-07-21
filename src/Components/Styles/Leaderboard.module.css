@@ -1,0 +1,140 @@
+.container {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.addButton {
+	position: absolute;
+	right: 0%;
+	top: 5.7vw;
+	font-size: 2vw;
+	font-weight: 700;
+	background-color: transparent;
+	color: white;
+	border: none;
+	z-index: 1000;
+	cursor: pointer;
+}
+.mainbox {
+	height: 53.8vw;
+	background-image: url("../Assets/firstPic.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 2vw 10vw;
+	overflow-x: auto;
+}
+.header {
+	margin: 0.4vw;
+	height: 6vw;
+	font-size: 2.3vw;
+	font-weight: 800;
+	display: flex;
+	color: rgb(255, 174, 0);
+	background: black;
+	opacity: 0.8;
+	border-radius: 10px;
+}
+.trophy {
+	width: 5vw;
+	height: 6vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.name {
+	width: 100%;
+	padding: 0 2vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.name p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1.5vw;
+}
+.scoreItemBox {
+	margin: 0.4vw;
+	padding: 0.1vw;
+	font-weight: 700;
+	font-size: 2.2vw;
+	display: flex;
+	color: white;
+	background: black;
+	opacity: 0.8;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	border-bottom-right-radius: 40px;
+}
+.counter {
+	width: 4vw;
+	height: 4vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	color: black;
+	border-bottom-right-radius: 15px;
+	border: 1px solid white;
+}
+.scoreItem {
+	width: 100%;
+	padding: 0 2.3vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.score_details {
+	display: flex;
+	gap: 2vw;
+}
+.scoreItem p {
+	margin: 0;
+}
+.gold {
+	background-color: rgb(255, 174, 0);
+	color: black;
+}
+.silver {
+	background-color: silver;
+	color: black;
+}
+.bronze {
+	background-color: #b15c34;
+}
+.secondPic {
+	width: 100%;
+}
+.mainbox::-webkit-scrollbar {
+	width: 0;
+}
+@keyframes swipe {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.swipe {
+	animation: swipe 0.5s ease-in-out forwards;
+	animation-delay: var(--animation-delay);
+}
+@keyframes newSwipe {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.newScore {
+	background-color: green;
+	animation: newSwipe 0.5s ease-in-out forwards;
+	animation-delay: 0.7s;
+}

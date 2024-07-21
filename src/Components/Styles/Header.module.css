@@ -1,0 +1,23 @@
+.container {
+    background-color: rgb(24, 24, 24);
+    height: 7vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vw;
+}
+.logo {
+    height: 5vw;
+}
+.title p{
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+.first {
+    font-size: 4vw;
+    font-weight: 700;
+}
+.second {
+    font-size: 2vw;
+}
