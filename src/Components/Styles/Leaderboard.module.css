@@ -16,24 +16,15 @@
 	cursor: pointer;
 }
 .mainbox {
-	min-height: 51vw;
-	height: 46vh;
+	min-height: 51.5vw;
+	height: 42vh;
 	background-image: url("../Assets/firstPic.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 2vh 10vw;
 	overflow-x: auto;
-	@media (max-height: 700px) {
-		height: 46.5vh;
-	}
-	@media (min-height: 800px) and (max-height: 1000px) {
-		height: 45vh;
-	}
-	@media (min-height: 1000px) {
-		height: 44vh;
-	}
-	@media (min-height: 2000px) {
-		height: 42vh;
+	@media (max-width: 700px) {
+		height: 46vh;
 	}
 }
 .header {
