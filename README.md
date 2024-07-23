@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Leaderboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+Welcome to the Leaderboard project! This application is designed to display the top 10 scores of players in a clean and user-friendly interface. It allows users to add new scores, view the leaderboard, and ensures that the list is always sorted in ascending order. The application is built using modern web technologies and is hosted on GitHub Pages for easy accessibility.
 
-## Available Scripts
+## Key Features
+- Responsive design for various screen sizes.
+- Hosted on GitHub Pages.
+- Dynamic addition of new scores.
+- Auto-sorting of scores in ascending order.
+- Smooth scrolling to display new scores that fall outside the top 10.
+- Animations for score updates and page refresh.
 
-In the project directory, you can run:
+## Getting Started
+To get a local copy up and running, follow these simple steps.
 
-### `npm start`
+### Prerequisites
+- Node.js and npm
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/amar-codingenthusiast/leaderboard.git
+   ```
+2. Navigate to the root directory:
+   ```sh
+   cd leaderboard
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Run the frontend server:
+   ```sh
+   npm start
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Running the Application
+Open your browser and navigate to `http://localhost:3000` to view the leaderboard application.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Built with Modern Technologies
+- Utilizes React.js, React-Icons, and CSS for robust and efficient development.
 
-### `npm run build`
+### Dynamic Score Addition
+- Users can add new scores through a user-friendly input form. The leaderboard updates automatically, sorting the scores in ascending order. If the newly added score is within the top 10, it is displayed immediately. If not, the view scrolls smoothly to show the newly added score.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Animations
+- **Swipe Right Animation on Refresh/Component Mount:** On page refresh or component mount, all scores swipe in from the right, providing a visually appealing loading experience.
+- **Newly Added Score Animation:** When a new score is added, it is highlighted with a smooth transition effect, drawing attention to the latest entry on the leaderboard.
 
 ### Deployment
+- The application is deployed using GitHub Pages, making it easily accessible and shareable.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Assignment Project
+- This project is developed as an assignment to demonstrate proficiency in frontend development and styling with pure CSS.
 
-### `npm run build` fails to minify
+## Built with
+- HTML
+- CSS
+- JavaScript
+- React.js
+- React-Icons
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Deployment
+- This app is deployed on GitHub Pages.
+- Live version of Leaderboard app [here](https://amar-codingenthusiast.github.io/leaderboard).
+
+## Contributing
+Contributions are welcome! Here's how you can contribute:
+- Fork the repository.
+- Create your feature branch (`git checkout -b feature/YourFeature`).
+- Commit your changes (`git commit -m 'Add some feature'`).
+- Push to the branch (`git push origin feature/YourFeature`).
+- Create a new Pull Request.
+
+## License
+This project is licensed under the terms of the MIT license. You can find the [LICENSE](LICENSE) file in the root directory of the project.
+
+## Tags
+#React.js #GitHub-Pages #React-Icons #Leaderboard #Responsive-Design #Contributions #MIT-License #Animations
+
