@@ -16,7 +16,7 @@
 	cursor: pointer;
 }
 .mainbox {
-	min-height: 51.5vw;
+	min-height: 51vw;
 	height: 42vh;
 	background-image: url("../Assets/firstPic.png");
 	background-repeat: no-repeat;
