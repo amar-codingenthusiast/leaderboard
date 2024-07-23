@@ -16,16 +16,30 @@
 	cursor: pointer;
 }
 .mainbox {
-	height: 53.8vw;
+	min-height: 51.5vw;
+	height: 46vh;
 	background-image: url("../Assets/firstPic.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 2vw 10vw;
+	padding: 2vh 10vw;
 	overflow-x: auto;
+	@media (max-height: 700px) {
+		height: 46.5vh;
+	}
+	@media (min-height: 800px) and (max-height: 1000px) {
+		height: 45vh;
+	}
+	@media (min-height: 1000px) {
+		height: 44vh;
+	}
+	@media (min-height: 2000px) {
+		height: 42vh;
+	}
 }
 .header {
-	margin: 0.4vw;
-	height: 6vw;
+	margin: 0.4vh;
+	height: 6vh;
+	min-height: 6vw;
 	font-size: 2.3vw;
 	font-weight: 800;
 	display: flex;
@@ -35,8 +49,9 @@
 	border-radius: 10px;
 }
 .trophy {
-	width: 5vw;
-	height: 6vw;
+	width: 6vw;
+	height: 6vh;
+	min-height: 6vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -49,14 +64,15 @@
 	align-items: center;
 }
 .name p {
+	margin: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 1.5vw;
 }
 .scoreItemBox {
-	margin: 0.4vw;
-	padding: 0.1vw;
+	margin: 0.4vh;
+	padding: 0.1vh;
 	font-weight: 700;
 	font-size: 2.2vw;
 	display: flex;
@@ -68,14 +84,16 @@
 	border-bottom-right-radius: 40px;
 }
 .counter {
-	width: 4vw;
-	height: 4vw;
+	width: 3vh;
+	height: 3vh;
+	min-width: 4vw;
+	min-height: 4vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: #fff;
 	color: black;
-	border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 2vw;
 	border: 1px solid white;
 }
 .scoreItem {
@@ -104,7 +122,14 @@
 	background-color: #b15c34;
 }
 .secondPic {
+	background-image: url("../Assets/secondPic.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex: 1;
 	width: 100%;
+	height: 49vh;
+	min-height: 54vw;
 }
 .mainbox::-webkit-scrollbar {
 	width: 0;
@@ -136,5 +161,5 @@
 .newScore {
 	background-color: green;
 	animation: newSwipe 0.5s ease-in-out forwards;
-	animation-delay: 0.7s;
+	animation-delay: 0.6s;
 }

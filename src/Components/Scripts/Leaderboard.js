@@ -2,7 +2,6 @@ import styles from "../Styles/Leaderboard.module.css";
 import FastestOfToday from "./FastestOfToday";
 import AddScorePopup from "./AddScorePopup";
 import { dummyData } from "./DummyData";
-import secondPic from "../Assets/secondPic.png";
 import { useRef, useState } from "react";
 import { FaTrophy } from "react-icons/fa";
 import { BiSolidTimer } from "react-icons/bi";
@@ -107,7 +106,7 @@ const Leaderboard = () => {
 					</div>
 				))}
 			</div>
-			<img className={styles.secondPic} src={secondPic} alt="secondPic" />
+			<div className={styles.secondPic}></div>
 		</div>
 	);
 };

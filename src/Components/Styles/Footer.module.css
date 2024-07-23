@@ -11,6 +11,7 @@
 }
 .container p {
 	margin: 0;
+	text-wrap: nowrap;
 	animation: scroll 20s linear infinite;
 }
 @keyframes scroll {
